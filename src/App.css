@@ -1,0 +1,202 @@
+.main-container{
+  background-color: white;
+  
+}
+
+h1 {
+}
+
+.price {
+  color: #48cfad;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+h5 small {
+  color: #aaa;
+}
+
+.product {
+  background-color: #fff;
+  margin-bottom: 1rem;
+  width:100%;
+}
+
+.card {
+  position: relative;
+  border: none!important;
+  border-radius : 7px;
+ 
+  display: flex;
+  flex-direction: row!important;
+  align-items: center;
+  justify-content: center;
+}
+.btn{
+  margin-top: -528%!important;
+  margin-left:2%;
+  border-radius: 50px!important;
+}
+.card img {
+  opacity: 1;
+  display: block;
+  max-width:280px;
+  align-items: center;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  border-radius : 7px;
+}
+
+.card .middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  opacity: 0;
+}
+
+.card-body h4{
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.card:hover img {
+  opacity: 0.3;
+}
+
+.tbl-header{
+  font-weight: 600;
+  font-size: 20px;
+  width: 100%;
+ 
+}
+.tbl-header tr{
+  height:50px;
+  border-right: 2px solid rgb(170, 169, 169);
+  
+}
+.tbl-header th{
+  border-top: 2px solid rgb(170, 169, 169);
+  background-color: rgb(247, 244, 244);
+  padding:4%;
+  color:#333;
+  height:69px;
+}
+.tbl-header td{
+  padding:4%;
+  color:#333;
+  height:68px;
+}
+
+@media only screen and (min-width: 1600px) {
+  .tbl-header th{
+    height: 73px;
+
+  }
+  .tbl-header td{
+  height: 72px;
+  }
+}
+
+
+@media only screen and (min-width: 1700px) {
+  .tbl-header th{
+    height: 75px;
+
+  }
+  .tbl-header td{
+  height: 74px;
+  }
+}
+
+
+@media only screen and (min-width: 1800px) {
+  .tbl-header th{
+    height: 77px;
+
+  }
+  .tbl-header td{
+  height: 76px;
+  }
+}
+
+
+@media only screen and (min-width: 1600px) {
+  .tbl-header th{
+    height: 81px;
+
+  }
+  .tbl-header td{
+  height: 80px;
+  }
+}
+
+
+
+.row {
+  max-height:440px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-right: 0px!important;
+  margin-left: 0px!important;
+}
+
+.row>div{
+  
+  padding:2%;
+}
+
+.row1 {
+  max-height:440px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-right: 0px!important;
+  margin-left: 0px!important;
+}
+
+.row1>div{
+  width:33.33%;
+  
+}
+.product-item{
+  display: flex;
+  flex-direction: row;
+}
+.dummy-pic{
+  width:80%;
+  height:280px;
+  background-color: rgb(238, 234, 234);
+}
+.price-tag{
+  font-size: 24px;
+  font-weight: 600;
+}
+.MuiFormControl-root {
+  border: 0;
+  margin: 0;
+  padding-left: 7%!important;
+  display: inline-flex;
+  padding: 0;
+  position: relative;
+  min-width: 80%!important;
+  flex-direction: column;
+
+}
+
+.shw-diff{
+}
+
+.shw-diff label{
+  font-size: 24px;
+  margin-left: 20px;
+
+}
+.shw-diff input[type=checkbox]{
+  width: 20px;
+  height:20px;
+  
+}
